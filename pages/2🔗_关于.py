@@ -22,7 +22,7 @@ st.sidebar.info(f'当前在线人数：{len(sessions)}')
 
 st.sidebar.write("---")
 st.sidebar.caption("""You can check out the source code [here](https://github.com/JennieJisooBabe/Super_Resolution).""")
-st.sidebar.caption("""You can access streamlit cloud share [here](https://xxxxxxxxxxxxx).""")
+st.sidebar.caption("""You can access streamlit cloud share [here](https://jenniejisoobabe-super-resolution-0--9hs3ti.streamlit.app/).""")
 st.sidebar.write("---")
 
 st.title('Thank you for your use and wish you all the best')
