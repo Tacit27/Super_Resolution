@@ -46,7 +46,7 @@ if uploaded_file is not None:
 
       try:
         im = cv2.imdecode(np.frombuffer(bytes_data, np.uint8), cv2.IMREAD_COLOR)
-        img_result = cv2.resize(im,(0,0),fx=0.05,fy=0.05)
+        img_result = cv2.resize(im,(0,0),fx=0.5,fy=0.5)
         img111 = cv2.cvtColor(img_result,cv2.COLOR_BGR2RGB)
         st.image(img_result, channels="BGR",width=600)
       except Exception:
