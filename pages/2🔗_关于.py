@@ -25,7 +25,7 @@ st.sidebar.caption("""You can check out the source code [here](https://github.co
 st.sidebar.caption("""You can access streamlit cloud share [here](https://jenniejisoobabe-super-resolution-0--9hs3ti.streamlit.app/).""")
 st.sidebar.write("---")
 
-st.title('Thank you for your use and wish you all the best')
+st.title('Thank you for your use and wish you all the best！')
 st.header('Hope you experience well.')
 st.subheader('Following content also hopes you to know.')
 
@@ -55,7 +55,7 @@ with col4:
 with col5:
    st.subheader("王政豪")
    st.image('wzh.png',width=150)
-   st.write("**from: 20计二班**")
+   st.write("**from: 20计一班**")
    st.write("**人生只有贪心，没有动态规划。**")
 with col6:
    st.subheader("冯意")
