@@ -63,14 +63,14 @@ with col6:
    st.write("**from: 20计二班**")
    st.write("**兴趣爱好：编程，羽毛球，音乐。**")
 
-st.header('超分算法原引📋')
-st.subheader('使用高效的亚像素卷积神经网络实现实时单图像和视频超分辨率')
+st.header('超分算法参考文献📋')
+st.subheader('Real-Time Single Image and Video Super-Resolution Using an Efficient Sub-Pixel Convolutional Neural Network')
 st.caption('https://arxiv.org/pdf/1609.05158.pdf')
-st.subheader('加速超分辨率卷积神经网络')
+st.subheader('Accelerating the Super-Resolution Convolutional Neural Network')
 st.caption('http://mmlab.ie.cuhk.edu.hk/projects/FSRCNN.html')
-st.subheader('深度拉普拉斯金字塔网络实现快速准确的超分辨率')
+st.subheader('Deep Laplacian Pyramid Networks for Fast and Accurate Super-Resolution')
 st.caption('https://arxiv.org/pdf/1704.03915.pdf')
-st.subheader('增强的深度残差网络实现单图像超分辨率')
+st.subheader('Enhanced Deep Residual Networks for Single Image Super-Resolution')
 st.caption('https://arxiv.org/pdf/1707.02921.pdf')
 
 # from streamlit_disqus import st_disqus
