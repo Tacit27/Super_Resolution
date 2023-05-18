@@ -40,7 +40,7 @@ with col2:
    st.subheader("何宇青")
    st.image('hyq.png',width=150)
    st.write("**from: 20大数据二班**")
-   st.write("**大家好，我叫何宇青，我的名字是何宇青，现在给大家做自我介绍**\n\n**的是来自南京理工大学泰州科技学院的何宇青，希望大家能记住我叫何宇青。**")
+   st.write("**大家好，我叫何宇青，我的名字是何宇青，现在给大家做自我介绍**\n\n**的是来自20大数据二班的何宇青，希望大家能记住我叫何宇青。**")
 with col3:
    st.subheader("罗怡纯")
    st.image('lyc.png',width=150)
