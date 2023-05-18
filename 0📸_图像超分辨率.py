@@ -58,9 +58,9 @@ if uploaded_file is not None:
       option = st.selectbox(
           '选择你需要的算法',
           ('最近邻插值算法', '双线性插值算法','双三次插值算法',
-          'ESPCN深度学习算法', 'FSRCNN深度学习算法'))
+          'ESPCN深度学习算法', 'FSRCNN深度学习算法' , 'AttnSRCNN深度学习算法'))
 
-      if option in ['ESPCN深度学习算法', 'FSRCNN深度学习算法']:
+      if option in ['ESPCN深度学习算法', 'FSRCNN深度学习算法', 'AttnSRCNN深度学习算法']:
         zoom_factor = st.number_input('请输入超分辨率的缩放因子, 目前深度学习算法只支持2-4倍', min_value = 2, max_value = 4, step = 1, format='%d')
       else:
         zoom_factor = st.number_input('请输入超分辨率的缩放因子, 目前深度学习算法只支持2-4倍', min_value = 2, max_value = 6, step = 1, format='%d')
