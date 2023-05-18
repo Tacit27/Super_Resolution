@@ -21,6 +21,13 @@ def resize_im(im,zoom_factor,option):
         sr.readModel(path)
         sr.setModel("fsrcnn", zoom_factor)
         im_ = sr.upsample(im)
+    elif option == "AttnSRCNN深度学习算法":
+        sr = cv2.dnn_superres.DnnSuperResImpl_create()
+        # sr = cv2.legacy.dnn_superres.DnnSuperResImpl_create()
+        path = f"config/FSRCNN_x{zoom_factor}.pb"
+        sr.readModel(path)
+        sr.setModel("fsrcnn", zoom_factor)
+        im_ = sr.upsample(im)
     else: 
         im_ = [[0,0],[0,0]]
     return im_
