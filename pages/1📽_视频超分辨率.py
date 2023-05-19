@@ -54,7 +54,7 @@ if uploaded_file is not None:
         st.exception(e)
       option = st.selectbox(
           '选择你需要的算法',
-          ('最近邻插值算法', '双线性插值算法','双三次插值算法'))
+          ('最近邻插值算法', '双线性插值算法','双三次插值算法','ESPCN深度学习算法','FSRCNN深度学习算法','AttnSRCNN深度学习算法'))
 
       resoultion_str = st.selectbox(
           '选择视频输出分辨率',
