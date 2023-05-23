@@ -39,6 +39,12 @@ def resize_video(im,resolution,option):
         im_ = cv2.resize(im, resolution, fx=0, fy=0, interpolation=cv2.INTER_LINEAR)
     elif option == "双三次插值算法":
         im_ = cv2.resize(im, resolution, fx=0, fy=0, interpolation=cv2.INTER_CUBIC)
+    elif option == "ESPCN深度学习算法":
+        im_ = cv2.resize(im, resolution, fx=0, fy=0, interpolation=cv2.INTER_NEAREST)
+    elif option == "FSRCNN深度学习算法":
+        im_ = cv2.resize(im, resolution, fx=0, fy=0, interpolation=cv2.INTER_LINEAR)
+    elif option == "AttnSRCNN深度学习算法":
+        im_ = cv2.resize(im, resolution, fx=0, fy=0, interpolation=cv2.INTER_CUBIC)
     else: 
         im_ = [[0,0],[0,0]]
     return im_
